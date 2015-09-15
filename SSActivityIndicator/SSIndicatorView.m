@@ -34,7 +34,7 @@
 #pragma mark - Setups
 
 // Init without the IBDesignable;
-- (id)initWithImage:(UIImage *)img withSpeed:(float)spd withSize:(CGSize)cgsize andColor:(UIColor *)clr {
+- (id)initWithImage:(UIImage *)img withSpeed:(float)spd withSize:(CGSize)cgsize andColor:(UIColor *)clr andPoint:(CGPoint)point{
     self = [super init];
     
     if (self) {
@@ -44,6 +44,7 @@
         _color = clr;
         _playing = NO;
         _wasStarted = NO;
+        [self setFrame:CGRectMake(point.x, point.y, 0, 0)];
     }
     
     return self;

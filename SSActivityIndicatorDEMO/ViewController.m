@@ -12,7 +12,7 @@
 IB_DESIGNABLE
 @interface ViewController ()
 
-//@property SSIndicatorView *indV;
+@property SSIndicatorView *indV;
 
 @end
 
@@ -22,9 +22,9 @@ IB_DESIGNABLE
     [super viewDidLoad];
     
 // Init from Code
-//    _indV = [[SSIndicatorView alloc] initWithImage:[UIImage imageNamed:@"indicator"] withSpeed:0.5f withSize:CGSizeMake(50, 50) andColor:[UIColor greenColor]];
-//    [self.view addSubview:_indV];
-//    [_indV beginnAnimation];
+    _indV = [[SSIndicatorView alloc] initWithImage:[UIImage imageNamed:@"indicator"] withSpeed:0.5f withSize:CGSizeMake(50, 50) andColor:[UIColor greenColor] andPoint:CGPointMake(50, 50)];
+    [self.view addSubview:_indV];
+    [_indV beginnAnimation];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -60,6 +60,7 @@
 				C11926621BA30DDC00BD69CD /* SSActivityIndicatorDEMO.app */,
 			);
 			name = Products;
+			path = SSActivityIndicatorDEMO;
 			sourceTree = "<group>";
 		};
 		C11926641BA30DDC00BD69CD /* SSActivityIndicator */ = {
@@ -280,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ActivityIndicator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SSActivityIndicatorDEMO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SSActivityIndicatorDEMO;
 			};
@@ -290,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ActivityIndicator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SSActivityIndicatorDEMO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SSActivityIndicatorDEMO;
 			};

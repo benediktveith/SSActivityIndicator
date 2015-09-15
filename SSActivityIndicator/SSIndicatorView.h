@@ -12,7 +12,7 @@ IB_DESIGNABLE
 @interface SSIndicatorView : UIView
 
 - (id)init;
-- (id)initWithImage:(UIImage *)img withSpeed:(float)spd withSize:(CGSize)cgsize andColor:(UIColor *)clr;
+- (id)initWithImage:(UIImage *)img withSpeed:(float)spd withSize:(CGSize)cgsize andColor:(UIColor *)clr andPoint:(CGPoint)point;
 - (void)beginnAnimation;
 - (void)endAnimation;
 
