@@ -13,6 +13,7 @@
 		C11926711BA30DDC00BD69CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C119266F1BA30DDC00BD69CD /* Main.storyboard */; };
 		C11926731BA30DDC00BD69CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11926721BA30DDC00BD69CD /* Images.xcassets */; };
 		C11926761BA30DDC00BD69CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11926741BA30DDC00BD69CD /* LaunchScreen.xib */; };
+		C1570D7C1BA84EE700B168DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1570D7B1BA84EE700B168DD /* Default-568h@2x.png */; };
 		C15A30BD1BA31A6900325C1A /* SSIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C15A30BC1BA31A6900325C1A /* SSIndicatorView.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		C11926701BA30DDC00BD69CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C11926721BA30DDC00BD69CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C11926751BA30DDC00BD69CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C1570D7B1BA84EE700B168DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C15A30BB1BA31A6900325C1A /* SSIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIndicatorView.h; sourceTree = "<group>"; };
 		C15A30BC1BA31A6900325C1A /* SSIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +47,7 @@
 		C11926591BA30DDC00BD69CD = {
 			isa = PBXGroup;
 			children = (
+				C1570D7B1BA84EE700B168DD /* Default-568h@2x.png */,
 				C11926641BA30DDC00BD69CD /* SSActivityIndicator */,
 				C1570D7A1BA8371100B168DD /* SSActivityIndicatorDEMO */,
 				C11926631BA30DDC00BD69CD /* Products */,
@@ -65,8 +68,7 @@
 				C15A30BB1BA31A6900325C1A /* SSIndicatorView.h */,
 				C15A30BC1BA31A6900325C1A /* SSIndicatorView.m */,
 			);
-			name = SSActivityIndicator;
-			path = SSActivityIndicatorDEMO;
+			path = SSActivityIndicator;
 			sourceTree = "<group>";
 		};
 		C11926651BA30DDC00BD69CD /* Supporting Files */ = {
@@ -152,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C11926711BA30DDC00BD69CD /* Main.storyboard in Resources */,
+				C1570D7C1BA84EE700B168DD /* Default-568h@2x.png in Resources */,
 				C11926761BA30DDC00BD69CD /* LaunchScreen.xib in Resources */,
 				C11926731BA30DDC00BD69CD /* Images.xcassets in Resources */,
 			);

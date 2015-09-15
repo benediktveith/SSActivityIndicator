@@ -24,7 +24,7 @@ IB_DESIGNABLE
 // Init from Code
 //    _indV = [[SSIndicatorView alloc] initWithImage:[UIImage imageNamed:@"indicator"] withSpeed:0.5f withSize:CGSizeMake(50, 50) andColor:[UIColor greenColor]];
 //    [self.view addSubview:_indV];
-//    [_indV startAnimation];
+//    [_indV beginnAnimation];
 }
 
 - (void)didReceiveMemoryWarning {
