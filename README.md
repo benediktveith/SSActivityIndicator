@@ -12,6 +12,7 @@ ___
 *  Simple 'Fade In' / 'Fade Out' animation.
 *  Easy to beginn / end the indicator.
 ___
+
 **Technical Requirements:**
 -
 **iOS** 7.0 and above.
