@@ -27,8 +27,6 @@
 		C11926701BA30DDC00BD69CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C11926721BA30DDC00BD69CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C11926751BA30DDC00BD69CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C11926801BA30DDC00BD69CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C11926811BA30DDC00BD69CD /* ActivityIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorTests.m; sourceTree = "<group>"; };
 		C15A30BB1BA31A6900325C1A /* SSIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIndicatorView.h; sourceTree = "<group>"; };
 		C15A30BC1BA31A6900325C1A /* SSIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +47,6 @@
 			children = (
 				C11926641BA30DDC00BD69CD /* SSActivityIndicator */,
 				C1570D7A1BA8371100B168DD /* SSActivityIndicatorDEMO */,
-				C119267E1BA30DDC00BD69CD /* ActivityIndicatorTests */,
 				C11926631BA30DDC00BD69CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +66,7 @@
 				C15A30BC1BA31A6900325C1A /* SSIndicatorView.m */,
 			);
 			name = SSActivityIndicator;
-			path = ActivityIndicator;
+			path = SSActivityIndicatorDEMO;
 			sourceTree = "<group>";
 		};
 		C11926651BA30DDC00BD69CD /* Supporting Files */ = {
@@ -77,23 +74,6 @@
 			children = (
 				C11926661BA30DDC00BD69CD /* Info.plist */,
 				C11926671BA30DDC00BD69CD /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C119267E1BA30DDC00BD69CD /* ActivityIndicatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				C11926811BA30DDC00BD69CD /* ActivityIndicatorTests.m */,
-				C119267F1BA30DDC00BD69CD /* Supporting Files */,
-			);
-			path = ActivityIndicatorTests;
-			sourceTree = "<group>";
-		};
-		C119267F1BA30DDC00BD69CD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C11926801BA30DDC00BD69CD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,8 +90,7 @@
 				C11926741BA30DDC00BD69CD /* LaunchScreen.xib */,
 				C11926651BA30DDC00BD69CD /* Supporting Files */,
 			);
-			name = SSActivityIndicatorDEMO;
-			path = ActivityIndicator;
+			path = SSActivityIndicatorDEMO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
