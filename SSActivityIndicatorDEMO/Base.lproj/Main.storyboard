@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="width" secondItem="rqZ-qb-Agd" secondAttribute="height" multiplier="1:1" id="DWI-1y-FYx"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="dsfgdsgsfdg"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Please Wait..."/>
                                     <userDefinedRuntimeAttribute type="size" keyPath="size">
                                         <size key="value" width="64" height="64"/>
                                     </userDefinedRuntimeAttribute>
@@ -36,7 +36,11 @@
                                         <color key="value" red="0.12084689981381624" green="1" blue="0.95909654713738701" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="image" keyPath="actImage" value="indicator"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="playing" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="textLabelSize">
+                                        <size key="value" width="200" height="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showing" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="textLabelAnimation" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIW-C0-uQN">

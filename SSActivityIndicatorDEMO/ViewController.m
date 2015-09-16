@@ -23,6 +23,7 @@ IB_DESIGNABLE
     
 // Init from Code
     _indV = [[SSIndicatorView alloc] initWithImage:[UIImage imageNamed:@"indicator"] withSpeed:0.5f withSize:CGSizeMake(50, 50) andColor:[UIColor greenColor] andPoint:CGPointMake(50, 50)];
+    [_indV setTextLabelText:@"Loading..." withSize:CGSizeMake(200, 50) andWithAnimation:YES];
     [self.view addSubview:_indV];
     [_indV beginnAnimation];
 }

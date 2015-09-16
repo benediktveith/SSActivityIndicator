@@ -13,6 +13,7 @@ IB_DESIGNABLE
 
 - (id)init;
 - (id)initWithImage:(UIImage *)img withSpeed:(float)spd withSize:(CGSize)cgsize andColor:(UIColor *)clr andPoint:(CGPoint)point;
+- (void)setTextLabelText:(NSString *)text withSize:(CGSize)aSize andWithAnimation:(BOOL)animation;
 - (void)beginnAnimation;
 - (void)endAnimation;
 
