@@ -1,16 +1,19 @@
 **SSActivityIndicator**
 -
-`SSActivityIndicator` is a simple dynamical activity indicator based on `IBDesignable`. It can be designed on `Storyboard` and per code.
+`SSActivityIndicator` is a simple dynamical activity indicator using `IBDesignable`. With this feature the indicator can be designed via `Storyboard` and via `Code`
 
 **Features:**
 -
-*  `IBDesignable` and `per Code` Initalization.
-*  Custom indicator picture.
-*  Custom indicator color.
-*  Custom indicator rotation speed.
-*  Custom indicator size.
+*  Via `IBDesignable` and via `Code` Initalization.
+*  Custom Indicator picture.
+*  Custom Indicator color.
+*  Custom Indicator rotation speed.
+*  Custom Indicator size.
 *  Simple 'Fade In' / 'Fade Out' animation.
-*  Easy to beginn / end the indicator.
+*  Optional: Textlabel
+  * Optional: Animation
+  * Custom Size
+  * Custom Text
 
 **Technical Requirements:**
 -
