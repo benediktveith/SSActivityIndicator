@@ -6,8 +6,9 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    * A rotating 'Activity Indicator' module. 
 				   * Custom Indactor Image / Custom Size / Custom Color / Custom Speed
-				   * Simple Fade In / Fade Out Animatiob
-				   * Custom text under Activity Indicator 
+				   * (Optional) Add text under indicator 
+				   * (Optional) Animation for text
+				   * Simple Fade In / Fade Out Animation
                    DESC
   s.homepage     = "https://github.com/benediktveith/SSActivityIndicator"
   s.license      = { :type => "MIT", :file => "LICENSE" }

@@ -2,8 +2,8 @@
 //  SSIndicatorView.m
 //  ActivityIndicator
 //
-//  Created by Benedikt Veith on 11/09/15.
-//  Copyright (c) 2015 Benedikt Veith. All rights reserved.
+//  Created by Scherer Software on 11/09/15.
+//  Copyright (c) 2015 Scherer Software. All rights reserved.
 //
 
 #import "SSIndicatorView.h"
